@@ -1,7 +1,7 @@
 import { Alert, Button, Label, Spinner, TextInput } from 'flowbite-react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import OAuth from '../components/OAuth';
+// import OAuth from '../components/OAuth';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({});
@@ -38,22 +38,22 @@ export default function SignUp() {
     }
   };
   return (
-    <div className='min-h-screen mt-20'>
-      <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
+    <div className='min-h-screen  '>
+      <div className="">
+      <div className='flex p-3 max-w-3xl  mx-auto flex-col md:flex-row md:items-center gap-5 '>
         {/* left */}
         <div className='flex-1'>
-          <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-            Blog
-            </span>
-            {/* Blog */}
-          </Link>
-          <p className='text-sm mt-5'>
+        <h1 className=' mt-5 text-2xl font-serif font-bold'>
+            LESS TAKING MORE BUILDING
+          </h1>
+          <div className="p-7 flex-1">
+            <img src="https://test-redis.pantheonsite.io/wp-content/uploads/2024/07/tryfree.webp?&amp;auto=webp&amp;quality=85,75&amp;width=500" />
+        </div>
+          <p className='text-sm mt-5 font-medium'>
             This is a demo project. You can sign up with your email and password
             or with Google.
           </p>
         </div>
-        {/* right */}
 
         <div className='flex-1'>
           <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
@@ -112,6 +112,7 @@ export default function SignUp() {
             </Alert>
           )}
         </div>
+      </div>
       </div>
     </div>
   );

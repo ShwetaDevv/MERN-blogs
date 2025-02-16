@@ -1,24 +1,15 @@
-import { Button } from 'flowbite-react';
+import {  } from 'flowbite-react';
 
 export default function CallToAction() {
   return (
-    <div className='flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center'>
-        <div className="flex-1 justify-center flex flex-col">
-            <h2 className='text-2xl'>
-                Want to learn more about JavaScript?
-            </h2>
-            <p className='text-gray-500 my-2'>
-                Checkout these resources with 100 JavaScript Projects
-            </p>
-            <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
-                <a href="https://www.100jsprojects.com" target='_blank' rel='noopener noreferrer'>
-                    100 JavaScript Projects
-                </a>
-            </Button>
-        </div>
-        <div className="p-7 flex-1">
-            <img src="https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg" />
-        </div>
+    <div className="flex flex-col sm:flex-row p-3 h-96 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center relative">
+      <div className="absolute top-0 left-0 w-full h-full">
+        <video className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl" autoPlay loop muted>
+          <source
+            src="https://media.istockphoto.com/id/1365307556/video/animation-of-virus-cells-floating-over-data-processing.mp4?s=mp4-640x640-is&k=20&c=_FyD08mWE_wFpbtbdqnf17mOy0P2JQP4ZHBQbD-gYeU=" // Replace with your programming video URL
+          />
+        </video>
+      </div>
     </div>
-  )
+  );
 }
