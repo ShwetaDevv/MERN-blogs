@@ -90,7 +90,6 @@ export default function DashboardComp() {
       </div>
     </div>
 
-    {/* Total Comments Card */}
     <div className=" dark:bg-gray-800 rounded-lg  p-6 flex flex-col justify-between items-center  transition-all transform hover:shadow-2xl bg-white shadow-lg shadow-cyan-500/50">
       <div className="text-center">
         <h3 className="text-gray-500 text-md uppercase">Total Comments</h3>
@@ -106,7 +105,6 @@ export default function DashboardComp() {
       </div>
     </div>
 
-    {/* Total Posts Card */}
     <div className=" dark:bg-gray-800 rounded-lg  p-6 flex flex-col justify-between items-center  transition-all transform hover:shadow-2xl bg-white shadow-lg shadow-cyan-500/50">
       <div className="text-center">
         <h3 className="text-gray-500 text-md uppercase">Total Posts</h3>
@@ -123,7 +121,6 @@ export default function DashboardComp() {
     </div>
   </div>
 
-  {/* Other Cards */}
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     {/* Recent Users Card */}
     <div className=" dark:bg-gray-800 rounded-lg  p-6   transition-all transform hover:shadow-2xl bg-white shadow-lg shadow-cyan-500/50">
@@ -151,7 +148,6 @@ export default function DashboardComp() {
       </Table>
     </div>
 
-    {/* Recent Comments Card */}
     <div className=" dark:bg-gray-800 rounded-lg  p-6   transition-all transform hover:shadow-2xl bg-white shadow-lg shadow-cyan-500/50">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-lg font-semibold text-gray-800 dark:text-white">Recent Comments</h1>
@@ -177,7 +173,6 @@ export default function DashboardComp() {
       </Table>
     </div>
 
-    {/* Recent Posts Card */}
     <div className=" dark:bg-gray-800 rounded-lg  p-6   transition-all transform hover:shadow-2xl bg-white shadow-lg shadow-cyan-500/50">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-lg font-semibold text-gray-800 dark:text-white">Recent Posts</h1>
